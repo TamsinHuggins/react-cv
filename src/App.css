@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300&family=Lato:wght@100;300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Karla:wght@200;300&family=Lato:wght@100;300;400;700&family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300&family=Lato:wght@100;300;400;700&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans:wght@100;200;300&family=Karla:wght@200;300;400&family=Lato:wght@100;300;400;700&family=Playfair+Display&display=swap");
+
 .App {
   text-align: center;
   background-color: black;
@@ -13,21 +12,33 @@
   margin: 0 auto;
   background-color: rgb(230, 228, 225);
   font-family: "Karla", sans-serif;
+  font-weight: 400;
   display: flex;
   flex-direction: row;
 }
 
-.A4Page p {
+.A4Page p,
+h1,
+h2,
+h3,
+h4,
+a {
   padding: 0 10px;
+  margin-top: 0.5em;
+  margin-bottom: 0.53em;
 }
 
-.A4Page h1 {
+/* .A4Page h1 {
   padding: 0 10px;
 }
 
 .A4Page h3 {
   padding: 0 10px;
 }
+
+.A4Page h3 {
+  padding: 0 10px;
+} */
 
 #titleStrip {
   color: rgb(20, 42, 50);
@@ -47,7 +58,7 @@
 #titleStrip p {
   font-family: "Karla", sans-serif;
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0.5em;
 }
 
@@ -57,8 +68,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 10px;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

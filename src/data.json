@@ -1,20 +1,21 @@
-[
-  {
-    "type": "Work Experience",
-    "job title": "Technical Instructor, Data Science",
-    "start date": "10/22",
-    "end date": "Present",
-    "company": "Neueda",
-    "location": "Remote",
-    "description": [
-      "Leading industry training in comuter programming and data science, including month-long graduate schemes for banks in the global top 10.",
-      "Teaching advanced Python, SQL and Tableau, including Python packages such as Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, Tensorflow and PySpark for big data.",
-      "Teaching JavaScript, HTML and CSS, cloud technology such as AWS.",
-      "Designing and delivering masterclasses in topics such as data visualisation and machine learning.",
-      "Collaborating with stakeholders to create bespoke technical courses, tailored to the company's training needs.",
-      "Creating learning materials including code challenges, tests and hackathons.",
-      "Teaching courses online, in person, and hybrid, harnessing online teaching technology such as breakout rooms and online chat features.",
-      "Directing and coaching teaching assistants and course facilitators."
-    ]
-  }
-]
+{
+  "workExperience": [
+    {
+      "jobTitle": "Technical Instructor, Data Science",
+      "startDate": "10/22",
+      "endDate": "Present",
+      "company": "Neueda",
+      "location": "Remote",
+      "points": [
+        "Leading interactive industry training in comuter programming and data science, including month-long graduate schemes for banks in the global top 10.",
+        "Teaching data cleaning, visualisation, big data and machine learning using Python packages such as Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, Tensorflow and PySpark.",
+        "Coaching data analysts in advanced SQL, NoSQL and Tableau.",
+        "Teaching front end development with JavaScript, HTML and CSS.",
+        "Teaching developer skills such as Linux/UNIX command line and Git.",
+        "Collaborating with stakeholders to create bespoke technical courses , tailored to the client firm's training needs.",
+        "Teaching courses online, in person, and hybrid, harnessing EdTech.",
+        "Directing and coaching teaching assistants and course facilitators."
+      ]
+    }
+  ]
+}

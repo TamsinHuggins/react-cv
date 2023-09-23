@@ -6,6 +6,12 @@ import data from "./data.json";
 
 // access all data from data.json where type = work experience
 
+// for (let i = 0; i < data.workExperience.length; i++) {
+//   console.log(data.workExperience[i].company);
+// }
+
+console.log();
+
 function App() {
   return (
     <div className="App">
@@ -24,8 +30,7 @@ function App() {
             <a href="https://www.w3schools.com/tags/tag_a.asp">w3schools</a>
           </div>
 
-          <CvEvent />
-          <CvEvent />
+          <CvEvent info={data.workExperience[0]} />
         </div>
       </div>
     </div>
