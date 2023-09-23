@@ -27,7 +27,8 @@ function App() {
               types, Class components and Function components, in this tutorial
               we will concentrate on Function components.
             </p>
-            <a href="https://www.w3schools.com/tags/tag_a.asp">w3schools</a>
+
+            <h3>EXPERIENCE</h3>
           </div>
 
           <CvEvent info={data.workExperience[0]} />

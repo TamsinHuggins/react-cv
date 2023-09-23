@@ -7,7 +7,7 @@
       "company": "Neueda",
       "location": "Remote",
       "points": [
-        "Leading interactive industry training in comuter programming and data science, including month-long graduate schemes for banks in the global top 10.",
+        "Leading interactive industry training in comuter programming and data science, including month-long graduate schemes global top 10 banks.",
         "Teaching data cleaning, visualisation, big data and machine learning using Python packages such as Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, Tensorflow and PySpark.",
         "Coaching data analysts in advanced SQL, NoSQL and Tableau.",
         "Teaching front end development with JavaScript, HTML and CSS.",
@@ -16,6 +16,28 @@
         "Teaching courses online, in person, and hybrid, harnessing EdTech.",
         "Directing and coaching teaching assistants and course facilitators."
       ]
+    }
+  ],
+
+  "education": [
+    {
+      "courseTitle": "MRes Interactive Artificial Intelligence | 2:1",
+      "institution": "University of Bristol",
+      "dates": "2020 - 2022"
+    },
+
+    {
+      "courseTitle": "MSc Computer Science | 1st",
+      "institution": "University of Bath",
+      "grade": "1st",
+      "dates": "2019 - 2020"
+    },
+
+    {
+      "courseTitle": "BSc Biochemistry | 2:1",
+      "institution": "Imperial College London",
+      "grade": "2:1",
+      "dates": "2019 - 2020"
     }
   ]
 }
