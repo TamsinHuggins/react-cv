@@ -6,6 +6,12 @@ import data from "./data.json";
 
 // access all data from data.json where type = work experience
 
+// for (let i = 0; i < data.workExperience.length; i++) {
+//   console.log(data.workExperience[i].company);
+// }
+
+console.log();
+
 function App() {
   return (
     <div className="App">
@@ -21,11 +27,11 @@ function App() {
               types, Class components and Function components, in this tutorial
               we will concentrate on Function components.
             </p>
-            <a href="https://www.w3schools.com/tags/tag_a.asp">w3schools</a>
+
+            <h3>EXPERIENCE</h3>
           </div>
 
-          <CvEvent />
-          <CvEvent />
+          <CvEvent info={data.workExperience[0]} />
         </div>
       </div>
     </div>
